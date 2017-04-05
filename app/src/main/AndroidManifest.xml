@@ -19,7 +19,8 @@
         <activity android:name=".Charge" />
         <activity android:name=".ImageResolution" />
         <activity android:name=".Distance" />
-        <activity android:name=".Temperature"></activity>
+        <activity android:name=".Temperature" />
+        <activity android:name=".Result"></activity>
     </application>
 
 </manifest>

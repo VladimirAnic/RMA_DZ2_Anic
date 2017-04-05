@@ -9,4 +9,5 @@
     <color name="img_res_text_color">#000000</color>
     <color name="distance_background">#236B8E</color>
     <color name="temperature_background">#7D26CD</color>
+    <color name="result_background">#ADD8E6</color>
 </resources>
