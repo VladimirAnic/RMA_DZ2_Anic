@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@drawable/charge"
+        android:id="@+id/ibCharge"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@drawable/digitalimageresolution"
+        android:id="@+id/ibImageRes"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@drawable/distance"
+        android:id="@+id/ibDistance"
+        android:layout_below="@id/ibImageRes"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@drawable/temperature"
+        android:id="@+id/ibTemperature" />
+    </LinearLayout>
+</LinearLayout>
