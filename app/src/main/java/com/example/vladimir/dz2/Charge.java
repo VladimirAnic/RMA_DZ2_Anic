@@ -74,25 +74,140 @@ public class Charge extends Activity implements View.OnClickListener {
                         result.putExtra("myCustomerObj",obj);
                         this.startActivity(result);
                         break;
-                    case 1:
-                        double res;
-                        double val = (double) Value;
-                       res = val*299792.4580E4;
 
-                        float res1 = (float) res;
-                        obj.setResult(res1);
+                    case 1:
+
+                       Result = Value*299792.4580E4f;
+                        obj.setResult(Result);
                         result.putExtra("myCustomerObj",obj);
                         this.startActivity(result);
                         break;
+
                     case 2:
 
+                        Result = Value*0.000278f;
+                        obj.setResult(Result);
+                        result.putExtra("myCustomerObj",obj);
+                        this.startActivity(result);
+                        break;
 
+                    case 3:
+                        Result = Value*6241506363094001000f;
+                        obj.setResult(Result);
+                        result.putExtra("myCustomerObj",obj);
+                        this.startActivity(result);
+                        break;
                 }
                 break;
-            case 1:
-                switch(spTo.getSelectedItemPosition()){
 
+
+            case 1:
+                    switch(spTo.getSelectedItemPosition())
+                    {
+                        case 0:
+                            Result = Value*3.335640951E-10f;
+                            obj.setResult(Result);
+                            result.putExtra("myCustomerObj",obj);
+                            this.startActivity(result);
+                            break;
+
+                        case 1:
+
+                            Result = Value;
+                            obj.setResult(Result);
+                            result.putExtra("myCustomerObj",obj);
+                            this.startActivity(result);
+                            break;
+
+                        case 2:
+
+                            Result = Value*9.265669311E-14f;
+                            obj.setResult(Result);
+                            result.putExtra("myCustomerObj",obj);
+                            this.startActivity(result);
+                            break;
+
+                        case 3:
+                            Result = Value*2081942422.7f;
+                            obj.setResult(Result);
+                            result.putExtra("myCustomerObj",obj);
+                            this.startActivity(result);
+                            break;
+                    }
+
+                break;
+
+            case 2:
+                switch(spTo.getSelectedItemPosition())
+                {
+                    case 0:
+                        Result = Value*3600f;
+                        obj.setResult(Result);
+                        result.putExtra("myCustomerObj",obj);
+                        this.startActivity(result);
+                        break;
+
+                    case 1:
+
+                        Result = Value*10792528487998f;
+                        obj.setResult(Result);
+                        result.putExtra("myCustomerObj",obj);
+                        this.startActivity(result);
+                        break;
+
+                    case 2:
+
+                        Result = Value;
+                        obj.setResult(Result);
+                        result.putExtra("myCustomerObj",obj);
+                        this.startActivity(result);
+                        break;
+
+                    case 3:
+                        Result = Value*2.24694229E22f;
+                        obj.setResult(Result);
+                        result.putExtra("myCustomerObj",obj);
+                        this.startActivity(result);
+                        break;
                 }
+
+                break;
+
+
+            case 3:
+                switch(spTo.getSelectedItemPosition())
+                {
+                    case 0:
+                        Result = Value*1.60217733E-19f;
+                        obj.setResult(Result);
+                        result.putExtra("myCustomerObj",obj);
+                        this.startActivity(result);
+                        break;
+
+                    case 1:
+
+                        Result = Value*4.803206799E-10f;
+                        obj.setResult(Result);
+                        result.putExtra("myCustomerObj",obj);
+                        this.startActivity(result);
+                        break;
+
+                    case 2:
+
+                        Result = Value*4.450492583E-23f;
+                        obj.setResult(Result);
+                        result.putExtra("myCustomerObj",obj);
+                        this.startActivity(result);
+                        break;
+
+                    case 3:
+                        Result = Value;
+                        obj.setResult(Result);
+                        result.putExtra("myCustomerObj",obj);
+                        this.startActivity(result);
+                        break;
+                }
+
                 break;
         }
 
