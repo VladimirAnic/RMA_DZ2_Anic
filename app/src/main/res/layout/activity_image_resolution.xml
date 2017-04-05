@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/img_res_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHeadingImgRes"
+        android:text="@string/img_res_heading"
+        android:textSize="@dimen/dimen_heading"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/text_color"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvImgResFrom"
+        android:text="@string/message_from"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/text_color"
+        />
+
+    <Spinner
+        android:id="@+id/spFromImgRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:entries="@array/charge"
+        android:prompt="@string/message_from"
+        android:layout_marginBottom="15dp"
+        android:background="@color/text_color"
+        />
+    <EditText
+        android:id="@+id/etImgRes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etConvert"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/img_res_text_color"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvImgResTo"
+        android:text="@string/message_to"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/text_color"
+        />
+
+    <Spinner
+        android:id="@+id/spToImgRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:entries="@array/charge"
+        android:prompt="@string/message_to"
+        android:layout_marginBottom="20dp"
+        android:background="@color/text_color"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bImgRes"
+        android:text="@string/Convert"
+        android:textColor="@color/text_color"/>
+
+</LinearLayout>
