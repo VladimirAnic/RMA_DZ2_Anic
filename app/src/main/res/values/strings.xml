@@ -1,3 +1,39 @@
 <resources>
-    <string name="app_name">DZ2</string>
+    <string name="app_name">UniCon</string>
+    <string name="message_from">Convert from:</string>
+    <string name="message_to">Convert to:</string>
+    <string name="etConvert">Enter unit for conversion</string>
+    <string name="Convert">Convert</string>
+    <string name="charge_heading">Electrical charge conversion</string>
+    <string name="img_res_heading">Digital image resolution conversion</string>
+    <string name="distance_heading">Distance conversion</string>
+    <string name="temperature_heading">Temperature conversion</string>
+
+    <string-array name="charge">
+        <item>Coulomb(C)</item>
+        <item>Franklin(Fr)</item>
+        <item>Ampere-hour(Ah)</item>
+        <item>Elementary charge(e)</item>
+    </string-array>
+
+    <string-array name="image_res">
+        <item>dot/m</item>
+        <item>dot/mm</item>
+        <item>pixel/inch</item>
+    </string-array>
+
+    <string-array name="distance">
+        <item>m</item>
+        <item>mm</item>
+        <item>cm</item>
+        <item>inch</item>
+        <item>foot</item>
+    </string-array>
+
+    <string-array name="temperature">
+        <item>°C</item>
+        <item>K</item>
+        <item>F</item>
+    </string-array>
+
 </resources>

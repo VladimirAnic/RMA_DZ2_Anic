@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Charge"></activity>
+        <activity android:name=".Charge" />
+        <activity android:name=".ImageResolution" />
+        <activity android:name=".Distance" />
+        <activity android:name=".Temperature"></activity>
     </application>
 
 </manifest>

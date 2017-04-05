@@ -14,13 +14,13 @@
         android:layout_weight="1"
         android:layout_height="match_parent"
         android:background="@drawable/charge"
-        android:id="@+id/ibCharge"/>
+        android:id="@+id/bCharge"/>
     <Button
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="match_parent"
         android:background="@drawable/digitalimageresolution"
-        android:id="@+id/ibImageRes"/>
+        android:id="@+id/bImageRes"/>
     </LinearLayout>
     <LinearLayout
         android:layout_height="0dp"
@@ -32,13 +32,13 @@
         android:layout_weight="1"
         android:layout_height="match_parent"
         android:background="@drawable/distance"
-        android:id="@+id/ibDistance"
-        android:layout_below="@id/ibImageRes"/>
+        android:id="@+id/bDistance"
+        android:layout_below="@id/bImageRes"/>
     <Button
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="match_parent"
         android:background="@drawable/temperature"
-        android:id="@+id/ibTemperature" />
+        android:id="@+id/bTemperature" />
     </LinearLayout>
 </LinearLayout>
