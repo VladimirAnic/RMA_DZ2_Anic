@@ -24,7 +24,7 @@ can be found in official android documentation or <a href="http://stackoverflow.
 <p>
 To use the spinner object, first, an array needs to be created and after that the spinner can be created in layout file.
 When the spinner is created in layout file it needs to be initialized in the java file for the activity using ArrayAdapter and setting it static.
-The way to implement spinners can be found in official android documentation ili na <a href="http://stackoverflow.com/questions/33054318/android-studio-spinner-causing-app-to-crash">stack overflowu</a>.
+The way to implement spinners can be found in official android documentation or on <a href="http://stackoverflow.com/questions/33054318/android-studio-spinner-causing-app-to-crash">stack overflow</a>.
 </p>
 
 <p>
