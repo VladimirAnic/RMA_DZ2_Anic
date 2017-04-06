@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class Temperature extends Activity implements View.OnClickListener {
 
@@ -53,8 +54,18 @@ public class Temperature extends Activity implements View.OnClickListener {
         spInput = spFromTemperature.getSelectedItem().toString();
         spOutput = spToTemperature.getSelectedItem().toString();
         etConvert = etTemperature.getText().toString();
+        Float Value;
 
-        Float Value = Float.parseFloat(etConvert);
+        if(etConvert.matches("")){
+            Value=0f;
+            obj.setData(Value);
+            Toast.makeText(getApplicationContext(),
+                    "Value not set!", Toast.LENGTH_LONG).show();
+        }
+        else{
+            Value=Float.parseFloat(etConvert);
+            obj.setData(Value);}
+
         float Result = 0;
 
         obj.setUnitFrom(spInput);

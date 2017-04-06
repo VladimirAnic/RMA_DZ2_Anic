@@ -67,6 +67,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/bImgRes"
         android:text="@string/Convert"
-        android:textColor="@color/text_color"/>
+        android:textColor="@color/text_color"
+        android:layout_margin="30sp"
+        android:background="@color/btn_background"/>
 
 </LinearLayout>

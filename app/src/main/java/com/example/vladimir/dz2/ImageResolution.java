@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class ImageResolution extends Activity implements View.OnClickListener {
 
@@ -56,13 +57,26 @@ public class ImageResolution extends Activity implements View.OnClickListener {
         spInput = spFromImgRes.getSelectedItem().toString();
         spOutput = spToImgRes.getSelectedItem().toString();
         etConvert = etImgRes.getText().toString();
+        Float Value;
 
-        Float Value = Float.parseFloat(etConvert);
+        if(etConvert.matches("")){
+            Value=0f;
+            obj.setData(Value);
+            Toast.makeText(getApplicationContext(),
+                    "Value not set!", Toast.LENGTH_LONG).show();
+        }
+        else{
+                Value=Float.parseFloat(etConvert);
+                obj.setData(Value);
+
+        }
+
+        obj.setData(Value);
         float Result = 0;
 
         obj.setUnitFrom(spInput);
         obj.setUnitTo(spOutput);
-        obj.setData(Value);
+
 
 
         switch (spFromImgRes.getSelectedItemPosition()) {

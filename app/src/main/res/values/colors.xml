@@ -10,4 +10,5 @@
     <color name="distance_background">#236B8E</color>
     <color name="temperature_background">#7D26CD</color>
     <color name="result_background">#ADD8E6</color>
+    <color name="btn_background">#7A7A7A</color>
 </resources>
